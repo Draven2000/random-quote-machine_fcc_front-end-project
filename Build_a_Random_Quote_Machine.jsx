@@ -118,3 +118,10 @@ class AppWrapper extends React.Component {
 };
 
 ReactDOM.render(<AppWrapper />, document.getElementById('root'));
+
+// Simple JSX Test
+const SimpleApp = () => {
+  return <h1>Hello, React with JSX!</h1>;
+};
+
+ReactDOM.render(<SimpleApp />, document.getElementById('root'));
